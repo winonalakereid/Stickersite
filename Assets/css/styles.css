@@ -1,0 +1,22 @@
+.logo-nav-img {
+  width:auto;
+  height: 80%;
+}
+.mdl-layout__header {
+  min-height: 25px;
+  height: 7%;
+  background-color: #dcdadb;
+}
+.mdl-layout__header-row {
+  height: 100%;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+  color: #000000;
+}
+
+.carousel {
+  height: 40%;
+  background-color: #15adc6;
+}
+
