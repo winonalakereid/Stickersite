@@ -4,49 +4,102 @@
         <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
         <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
         <link rel="stylesheet" href="Assets/css/styles.css">
+        <script src="https://kit.fontawesome.com/971326e4f1.js" crossorigin="anonymous"></script>
         <script>
 
         </script>
     </head>
     <body>
-        <!-- Always shows a header, even in smaller screens. -->
-        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-            <header class="mdl-layout__header">
-                <div class="mdl-layout__header-row">
-                    <!-- Title -->
-                    <span class="mdl-layout-title"><img class='logo-nav-img' href='index.html' src='Assets/images/stickerlab_logo.webp'/></span>
-                    <!-- Add spacer, to align navigation to the right -->
-                    <div class="mdl-layout-spacer"></div>
-                    <!-- Navigation. We hide it in small screens. -->
-                    <nav class="mdl-navigation mdl-layout--large-screen-only">
-
-                        <a class="mdl-navigation__link" href="products.html">Products</a>
-                        <a class="mdl-navigation__link" href="faq.html">F.A.Q.</a>
-                        <a class="mdl-navigation__link" href="contact.html">Contact</a>
-                        <a class="mdl-navigation__link" href="cart.html"></a>
-                    </nav>
-                </div>
-            </header>
-            <main class="mdl-layout__content">
-                <div class="page-content">
-                    <div class="carousel">
-                        
-                    </div>
-                </div>
-            </main>
+        <div class="mdl-grid nav-grid">
+            <div class="mdl-cell mdl-cell--4-col">
+                <a href="index.html"><img class='logo-nav-img' src='Assets/images/stickerlab_logo.png'/></a>
+            </div>
+            <div class ="mdl-cell mdl-cell--1-col nav-links">
+                <a class="mdl-navigation__link" href="products.html">Products</a>
+            </div>
+            <div class ="mdl-cell mdl-cell--1-col nav-links">
+                <a class="mdl-navigation__link" href="faq.html">F.A.Q.</a>
+            </div>
+            <div class ="mdl-cell mdl-cell--1-col nav-links">
+                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+            </div>
+            <div class ="mdl-cell mdl-cell--3-col">
+            </div>
+            <div class="mdl-cell mdl-cell--1-col nav-links">
+                <a class="mdl-navigation__link" href="contact.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+            </div>
+            <div class ="mdl-cell mdl-cell--1-col">
+            </div>
         </div>
-        <!--div class="nav-bar">
-            <ul>
-                <li>
-                    <a class='logo-nav-link' class="active" href="index.html">
-                        <img class='logo-nav-img' src='Assets/images/stickerlab_logo.webp'/>
-                    </a>
-                </li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="faq.html">F.A.Q.</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"></a></li>
-            </ul>
-        </div>  -->
+        <div class="mdl-grid carousel">
+            <div class="mdl-cell mdl-cell--6-col carousel-grid carousel-left">
+                <h1 class="carousel-title">Custom stickers, labels, and more.</h1>
+                <span class="carousel-subtitle">3-4 day turnaround and free shipping!</span><br><br>
+                <span class="carousel-subtitle">What are you waiting for? Lets get printing.</span>
+                <br>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect main-page-order-button">
+                    Order now
+                </button>
+            </div>
+            <div class="mdl-cell mdl-cell--6-col carousel-grid">
+                <img class="sticker-collage" src="Assets/images/front-page-sticker-art.png" /> 
+            </div>
+        </div>
+        <div class="mdl-grid main-page-products">
+            <div class="mdl-cell mdl-cell--3-col">
+            </div>
+            <div class="mdl-cell mdl-cell--3-col">
+                <a class="home-page-product-link" href="products.html">
+                    <img class="product-link-img" src="Assets/images/stickerlab-diecut-icon.png" />
+                    Custom stickers
+                </a>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col">
+                <a class="home-page-product-link" href="products.html">
+                    <img class="product-link-img" src="Assets/images/stickerlab-labels-icon.png" />
+                    Custom labels
+                </a>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col">
+                
+            </div>
+        </div>
+        <div class="mdl-grid main-page-information">
+            <h3 class="home-page-info-header">Easy to order, 2-3 day turnaround with free shipping.</h3>
+            <p class="home-page-info">StickerLabATL is a fast simple way to buy custom stickers and labels.</p>
+            <p class="home-page-info">Satisfaction guaranteed. Free shipping included. 2-3 day turnaround!</p>
+            <p class="home-page-info">Die cut stickers, holographic stickers, clear vinyl custom stickers, decals.</p>
+        </div>
+        <div class="mdl-grid footer">
+            <div class="mdl-cell mdl-cell--2-col">
+                <h6>Products</h6>
+                <p class="footer-links-p"><a href="#" class="footer-links">Stickers</a></p>
+                <p class="footer-links-p"><a href="#" class="footer-links">Labels</a></p>
+                <p class="footer-links-p"><a href="#" class="footer-links">Jars</a></p>
+                <p class="footer-links-p"><a href="#" class="footer-links">Bag</a></p>
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+                <h6>Company</h6>
+                <p class="footer-links-p"><a href="#" class="footer-links">About</a></p>
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+                <h6>Resources</h6>
+                <p class="footer-links-p"><a href="#" class="footer-links">Contact us</a></p>
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+                <h6>Support</h6>
+                <p class="footer-links-p"><a href="#" class="footer-links">Help</a></p>
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+                
+            </div>
+            <div class="mdl-cell mdl-cell--2-col additional-footer">
+                <a class="footer-links" href="#"><i class="fa-solid fa-flag-usa"></i> English (EN) $USD</a>
+                <hr class="solid">
+                <a class="footer-links" href="#">Privacy & Terms</a>
+                <hr class="solid">
+                <a class="footer-links" href="https://www.instagram.com/stickerlabatl/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
     </body>
 </html>

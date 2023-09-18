@@ -4,23 +4,99 @@
         <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
         <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
         <link rel="stylesheet" href="Assets/css/styles.css">
+        <script src="https://kit.fontawesome.com/971326e4f1.js" crossorigin="anonymous"></script>
         <script>
 
         </script>
     </head>
     <body>
-        <div class="nav-bar">
-            <ul>
-                <li>
-                    <a class='logo-nav-link' href="index.html">
-                        <img class='logo-nav-img' src='Assets/images/stickerlab_logo.webp'/>
-                    </a>
-                </li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="faq.html">F.A.Q.</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
-                <li><a href="cart.html">Cart</a></li>
-            </ul>
-        </div> 
+        <div class="mdl-grid nav-grid">
+            <div class="mdl-cell mdl-cell--4-col">
+                <a href="index.html"><img class='logo-nav-img' src='Assets/images/stickerlab_logo.png'/></a>
+            </div>
+            <div class ="mdl-cell mdl-cell--1-col nav-links">
+                <a class="mdl-navigation__link" href="products.html">Products</a>
+            </div>
+            <div class ="mdl-cell mdl-cell--1-col nav-links">
+                <a class="mdl-navigation__link" href="faq.html">F.A.Q.</a>
+            </div>
+            <div class ="mdl-cell mdl-cell--1-col nav-links">
+                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+            </div>
+            <div class ="mdl-cell mdl-cell--3-col">
+            </div>
+            <div class="mdl-cell mdl-cell--1-col nav-links">
+                <a class="mdl-navigation__link" href="contact.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+            </div>
+            <div class ="mdl-cell mdl-cell--1-col">
+            </div>
+        </div>
+        <div class="mdl-grid contact-header">
+            <div class="mdl-cell mdl-cell--1-col"></div>
+            <div class="mdl-cell mdl-cell--4-col contact-header-cell">
+                <h2 class="contact-header-text">Get in touch</h2>
+            </div>
+        </div>
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col">
+                <form class="contact-form" action="#">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label contact-form-div">
+                        <input class="mdl-textfield__input" type="text" id="contact-name">
+                        <label class="mdl-textfield__label" for="contact-name">Name</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label contact-form-div">
+                        <input class="mdl-textfield__input" type="text" id="contact-email">
+                        <label class="mdl-textfield__label" for="contact-email">Email</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label contact-form-div">
+                        <input class="mdl-textfield__input" type="text" id="contact-phone">
+                        <label class="mdl-textfield__label" for="contact-phone">Phone</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label contact-form-div">
+                        <textarea class="mdl-textfield__input" type="text" rows= "5" id="contact-note" ></textarea>
+                        <label class="mdl-textfield__label" for="contact-note">Note</label>
+                    </div>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent contact-form-button">
+                        Send
+                      </button>
+                  </form>
+            </div>
+            <div class="mdl-cell mdl-cell--6-col">
+                <a href="https://www.instagram.com/stickerlabatl/"><i class="fa-brands fa-instagram"></i>@StickerLabATL</a>
+                <a href="https://www.facebook.com/StickerLabATL"><i class="fa-brands fa-square-facebook"></i>StickerLabATL</a>
+                <a href="mailto:stickerlabatl@gmail.com"><i class="fa-solid fa-envelope"></i>StickerLabATL@gmail.com</a>
+            </div>
+        </div>
+        <div class="mdl-grid footer">
+            <div class="mdl-cell mdl-cell--2-col">
+                <h6>Products</h6>
+                <p class="footer-links-p"><a href="#" class="footer-links">Stickers</a></p>
+                <p class="footer-links-p"><a href="#" class="footer-links">Labels</a></p>
+                <p class="footer-links-p"><a href="#" class="footer-links">Jars</a></p>
+                <p class="footer-links-p"><a href="#" class="footer-links">Bag</a></p>
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+                <h6>Company</h6>
+                <p class="footer-links-p"><a href="#" class="footer-links">About</a></p>
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+                <h6>Resources</h6>
+                <p class="footer-links-p"><a href="#" class="footer-links">Contact us</a></p>
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+                <h6>Support</h6>
+                <p class="footer-links-p"><a href="#" class="footer-links">Help</a></p>
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+                
+            </div>
+            <div class="mdl-cell mdl-cell--2-col additional-footer">
+                <a class="footer-links" href="#"><i class="fa-solid fa-flag-usa"></i> English (EN) $USD</a>
+                <hr class="solid">
+                <a class="footer-links" href="#">Privacy & Terms</a>
+                <hr class="solid">
+                <a class="footer-links" href="https://www.instagram.com/stickerlabatl/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
     </body>
 </html>
